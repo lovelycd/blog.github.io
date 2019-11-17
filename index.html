@@ -19,10 +19,11 @@
 
 
 <meta name="description" content="this is the blog of lovelycd">
+<meta name="keywords" content="Blog">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
+<meta property="og:title" content="Blog Of Lovelycd">
 <meta property="og:url" content="https:&#x2F;&#x2F;lovelycd.top&#x2F;index.html">
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Blog Of Lovelycd">
 <meta property="og:description" content="this is the blog of lovelycd">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
@@ -30,7 +31,7 @@
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
 
-    <link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="Blog Of Lovelycd" type="application/atom+xml">
 
 
 
@@ -59,7 +60,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Blog</title>
+<title>Blog Of Lovelycd</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -171,6 +172,8 @@
                         
                             <li><a href="/archives/">所有文章</a></li>
                         
+                            <li><a href="/tags/%E9%9A%8F%E7%AC%94">随笔</a></li>
+                        
                             <li><a href="/tags/">标签云</a></li>
                         
                             <li><a href="/about/">关于我</a></li>
@@ -180,7 +183,7 @@
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" href="mailto:123@123.com" target="_blank" rel="noopener" title="Email"></a>
+                                <a class="fa Email" href="mailto:1262567640@qq.com" target="_blank" rel="noopener" title="Email"></a>
                             
                                 <a class="fa 新浪微博" href="/sina%20weibo" title="新浪微博"></a>
                             
@@ -232,7 +235,7 @@
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">专注于前端</div>
+                    <div id="js-aboutme">杂家</div>
                 </section>
                 
             </div>
@@ -262,6 +265,8 @@
                 
                     <li><a href="/archives/">所有文章</a></li>
                 
+                    <li><a href="/tags/%E9%9A%8F%E7%AC%94">随笔</a></li>
+                
                     <li><a href="/tags/">标签云</a></li>
                 
                     <li><a href="/about/">关于我</a></li>
@@ -272,7 +277,7 @@
             <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
+                                <a class="fa Email" target="_blank" href="mailto:1262567640@qq.com" title="Email"></a>
                             
                                 <a class="fa 新浪微博" target="_blank" href="/sina%20weibo" title="新浪微博"></a>
                             
@@ -309,6 +314,15 @@
       <time datetime="2019-11-12T11:15:11.000Z" itemprop="datePublished">2019-11-12</time>
 </a>
 
+ 
+    <a href="/2019/11/12/%E7%99%BD%E5%B8%BD-md/#comments" title="Comments">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+        <span class="count-comment"></span>
+        
+        
+            <span class="disqus-comment-count" data-disqus-identifier="2019/11/12/白帽-md/"></span>
+        
+    </a>
 
     </div>
   
@@ -576,6 +590,15 @@
       <time datetime="2019-11-12T03:08:08.000Z" itemprop="datePublished">2019-11-12</time>
 </a>
 
+ 
+    <a href="/2019/11/12/blog/#comments" title="Comments">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+        <span class="count-comment"></span>
+        
+        
+            <span class="disqus-comment-count" data-disqus-identifier="2019/11/12/blog/"></span>
+        
+    </a>
 
     </div>
   
@@ -636,6 +659,15 @@
       <time datetime="2019-11-03T12:18:46.255Z" itemprop="datePublished">2019-11-03</time>
 </a>
 
+ 
+    <a href="/2019/11/03/hello-world/#comments" title="Comments">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+        <span class="count-comment"></span>
+        
+        
+            <span class="disqus-comment-count" data-disqus-identifier="2019/11/03/hello-world/"></span>
+        
+    </a>
 
     </div>
   
@@ -751,6 +783,26 @@
         })
     </script>
 
+
+    
+
+    
+        <script id="dsq-count-scr" src="//lovelycd.disqus.com/count.js" async></script>
+        <script>
+            if ($(".left-col").is(":visible")) {
+                var $disqusCount = $(".disqus-comment-count");
+                $disqusCount.bind("DOMNodeInserted", function(e) {
+                    var num = $(this).text().replace(/[^0-9]/ig,"");
+                    if (num > 0) {
+                        $(this).siblings(".count-comment").text(num);
+                    }
+                    $(this).remove();
+                })
+            } else {
+                $(".disqus-comment-count").remove();
+            }
+        </script>
+     
 
 
 
