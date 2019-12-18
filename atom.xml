@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lovelycd.top/"/>
-  <updated>2019-12-18T07:21:24.545Z</updated>
+  <updated>2019-12-18T07:59:32.042Z</updated>
   <id>https://lovelycd.top/</id>
   
   <author>
@@ -21,20 +21,13 @@
     <link href="https://lovelycd.top/2019/12/18/matlab%E5%91%BD%E4%BB%A4/"/>
     <id>https://lovelycd.top/2019/12/18/matlab%E5%91%BD%E4%BB%A4/</id>
     <published>2019-12-18T07:12:10.000Z</published>
-    <updated>2019-12-18T07:21:24.545Z</updated>
+    <updated>2019-12-18T07:59:32.042Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="帮助系统"><a href="#帮助系统" class="headerlink" title="帮助系统"></a>帮助系统</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">shift+f1</td><td align="left">打开函数浏览器</td></tr><tr><td align="left">f1</td><td align="left">帮助文档</td></tr><tr><td align="left">lookfor</td><td align="left">关键字搜索</td></tr></tbody></table><h2 id="程序操作命令"><a href="#程序操作命令" class="headerlink" title="程序操作命令"></a>程序操作命令</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">cd</td><td align="left"></td></tr><tr><td align="left">clf</td><td align="left"></td></tr><tr><td align="left">clc</td><td align="left"></td></tr><tr><td align="left">clear</td><td align="left"></td></tr><tr><td align="left">dir</td><td align="left"></td></tr><tr><td align="left">whos</td><td align="left"></td></tr><tr><td align="left">exit</td><td align="left"></td></tr><tr><td align="left">quit</td><td align="left"></td></tr><tr><td align="left">md</td><td align="left"></td></tr><tr><td align="left">more</td><td align="left"></td></tr><tr><td align="left">type</td><td align="left"></td></tr><tr><td align="left">close</td><td align="left"></td></tr></tbody></table><h2 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h2><p>字符串的格式：<strong>‘str’</strong><br>命令|说明<br>:-|:-<br>blanks|<br>sprintf|<br>strcat|<br>strvcat|<br>deblank|<br>lower|<br>sort|<br>strjust|<br>strrep|<br>strtrim|<br>upper|<br>eval|<br>sscanf|<br>findstr|<br>strcmp|<br>strcmpi|<br>strmatch|<br>strtncmp|<br>strncmpi|<br>strtok|</p><h3 id="数字字符串的转换"><a href="#数字字符串的转换" class="headerlink" title="数字字符串的转换"></a>数字字符串的转换</h3><p>num2str|<br>int2str|<br>mat2str|<br>str2double|<br>str2num|<br>sprintf|<br>sscanf|<br>hex2num|<br>hex2dec|<br>dec2hex|<br>bin2dec|<br>dec2bin|<br>base2dec|<br>dec2base|</p><h2 id="信号处理类"><a href="#信号处理类" class="headerlink" title="信号处理类"></a>信号处理类</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">stem</td><td align="left">画竖线图</td></tr><tr><td align="left">subplot</td><td align="left">配合plot画子图</td></tr><tr><td align="left">length</td><td align="left">求向量的长度</td></tr><tr><td align="left">log</td><td align="left">求以e为底的对数</td></tr><tr><td align="left">log2</td><td align="left">求以2为底的对数</td></tr><tr><td align="left">log10</td><td align="left">求以10为底的对数</td></tr><tr><td align="left">floor</td><td align="left">向下取整</td></tr><tr><td align="left">fix</td><td align="left">丢弃小数</td></tr><tr><td align="left">ceil</td><td align="left">向上取整</td></tr><tr><td align="left">round</td><td align="left">四舍五入</td></tr><tr><td align="left">^</td><td align="left">求幂</td></tr><tr><td align="left">reverse</td><td align="left">字符串翻转</td></tr><tr><td align="left">dec2bin</td><td align="left">十进制转二进制字符串</td></tr><tr><td align="left">bin2dec</td><td align="left">二进制转十进制</td></tr><tr><td align="left">linspace</td><td align="left">创建向量</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<p><strong>matlab常用命令</strong></p><a id="more"></a><h2 id="帮助系统"><a href="#帮助系统" class="headerlink" title="帮助系统"></a>帮助系统</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">shift+f1</td><td align="left">打开函数浏览器</td></tr><tr><td align="left">f1</td><td align="left">帮助文档</td></tr><tr><td align="left">lookfor</td><td align="left">关键字搜索</td></tr></tbody></table><h2 id="程序操作命令"><a href="#程序操作命令" class="headerlink" title="程序操作命令"></a>程序操作命令</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">cd</td><td align="left"></td></tr><tr><td align="left">clf</td><td align="left"></td></tr><tr><td align="left">clc</td><td align="left"></td></tr><tr><td align="left">clear</td><td align="left"></td></tr><tr><td align="left">dir</td><td align="left"></td></tr><tr><td align="left">whos</td><td align="left"></td></tr><tr><td align="left">exit</td><td align="left"></td></tr><tr><td align="left">quit</td><td align="left"></td></tr><tr><td align="left">md</td><td align="left"></td></tr><tr><td align="left">more</td><td align="left"></td></tr><tr><td align="left">type</td><td align="left"></td></tr><tr><td align="left">close</td><td align="left"></td></tr></tbody></table><h2 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h2><p>字符串的格式：<strong>‘str’</strong><br>命令|说明<br>:-|:-<br>blanks|<br>sprintf|<br>strcat|<br>strvcat|<br>deblank|<br>lower|<br>sort|<br>strjust|<br>strrep|<br>strtrim|<br>upper|<br>eval|<br>sscanf|<br>findstr|<br>strcmp|<br>strcmpi|<br>strmatch|<br>strtncmp|<br>strncmpi|<br>strtok|</p><h3 id="数字字符串的转换"><a href="#数字字符串的转换" class="headerlink" title="数字字符串的转换"></a>数字字符串的转换</h3><p>num2str|<br>int2str|<br>mat2str|<br>str2double|<br>str2num|<br>sprintf|<br>sscanf|<br>hex2num|<br>hex2dec|<br>dec2hex|<br>bin2dec|<br>dec2bin|<br>base2dec|<br>dec2base|</p><h2 id="信号处理类"><a href="#信号处理类" class="headerlink" title="信号处理类"></a>信号处理类</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">stem</td><td align="left">画竖线图</td></tr><tr><td align="left">subplot</td><td align="left">配合plot画子图</td></tr><tr><td align="left">length</td><td align="left">求向量的长度</td></tr><tr><td align="left">log</td><td align="left">求以e为底的对数</td></tr><tr><td align="left">log2</td><td align="left">求以2为底的对数</td></tr><tr><td align="left">log10</td><td align="left">求以10为底的对数</td></tr><tr><td align="left">floor</td><td align="left">向下取整</td></tr><tr><td align="left">fix</td><td align="left">丢弃小数</td></tr><tr><td align="left">ceil</td><td align="left">向上取整</td></tr><tr><td align="left">round</td><td align="left">四舍五入</td></tr><tr><td align="left">^</td><td align="left">求幂</td></tr><tr><td align="left">reverse</td><td align="left">字符串翻转</td></tr><tr><td align="left">dec2bin</td><td align="left">十进制转二进制字符串</td></tr><tr><td align="left">bin2dec</td><td align="left">二进制转十进制</td></tr><tr><td align="left">linspace</td><td align="left">创建向量</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;帮助系统&quot;&gt;&lt;a href=&quot;#帮助系统&quot; class=&quot;headerlink&quot; title=&quot;帮助系统&quot;&gt;&lt;/a&gt;帮助系统&lt;/h2&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;left&quot;&gt;命令&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;说明
-      
+      &lt;p&gt;&lt;strong&gt;matlab常用命令&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
@@ -47,56 +40,6 @@
       <category term="matlab" scheme="https://lovelycd.top/tags/matlab/"/>
     
       <category term="常用命令" scheme="https://lovelycd.top/tags/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>遗憾</title>
-    <link href="https://lovelycd.top/2019/12/18/%E9%81%97%E6%86%BE/"/>
-    <id>https://lovelycd.top/2019/12/18/%E9%81%97%E6%86%BE/</id>
-    <published>2019-12-18T07:07:15.000Z</published>
-    <updated>2019-12-18T07:50:10.356Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="喜欢却没看的电影"><a href="#喜欢却没看的电影" class="headerlink" title="喜欢却没看的电影"></a>喜欢却没看的电影</h2><ul><li>和莎莫的500天<br><img src="/2019/12/18/%E9%81%97%E6%86%BE/summer500.jpg" alt="summer"></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;喜欢却没看的电影&quot;&gt;&lt;a href=&quot;#喜欢却没看的电影&quot; class=&quot;headerlink&quot; title=&quot;喜欢却没看的电影&quot;&gt;&lt;/a&gt;喜欢却没看的电影&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;和莎莫的500天&lt;br&gt;&lt;img src=&quot;/2019/12/18/%E9%81
-      
-    
-    </summary>
-    
-    
-      <category term="生活" scheme="https://lovelycd.top/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="生活" scheme="https://lovelycd.top/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DSP实验</title>
-    <link href="https://lovelycd.top/2019/12/17/DSP%E5%AE%9E%E9%AA%8C/"/>
-    <id>https://lovelycd.top/2019/12/17/DSP%E5%AE%9E%E9%AA%8C/</id>
-    <published>2019-12-17T13:10:15.000Z</published>
-    <updated>2019-12-18T07:26:28.337Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="实验" scheme="https://lovelycd.top/categories/%E5%AE%9E%E9%AA%8C/"/>
-    
-      <category term="dsp" scheme="https://lovelycd.top/categories/%E5%AE%9E%E9%AA%8C/dsp/"/>
-    
-    
-      <category term="实验" scheme="https://lovelycd.top/tags/%E5%AE%9E%E9%AA%8C/"/>
-    
-      <category term="dsp" scheme="https://lovelycd.top/tags/dsp/"/>
     
   </entry>
   
