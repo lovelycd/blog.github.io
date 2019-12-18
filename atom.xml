@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lovelycd.top/"/>
-  <updated>2019-12-06T15:18:22.213Z</updated>
+  <updated>2019-12-18T07:21:24.545Z</updated>
   <id>https://lovelycd.top/</id>
   
   <author>
@@ -15,6 +15,90 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>matlab命令</title>
+    <link href="https://lovelycd.top/2019/12/18/matlab%E5%91%BD%E4%BB%A4/"/>
+    <id>https://lovelycd.top/2019/12/18/matlab%E5%91%BD%E4%BB%A4/</id>
+    <published>2019-12-18T07:12:10.000Z</published>
+    <updated>2019-12-18T07:21:24.545Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="帮助系统"><a href="#帮助系统" class="headerlink" title="帮助系统"></a>帮助系统</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">shift+f1</td><td align="left">打开函数浏览器</td></tr><tr><td align="left">f1</td><td align="left">帮助文档</td></tr><tr><td align="left">lookfor</td><td align="left">关键字搜索</td></tr></tbody></table><h2 id="程序操作命令"><a href="#程序操作命令" class="headerlink" title="程序操作命令"></a>程序操作命令</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">cd</td><td align="left"></td></tr><tr><td align="left">clf</td><td align="left"></td></tr><tr><td align="left">clc</td><td align="left"></td></tr><tr><td align="left">clear</td><td align="left"></td></tr><tr><td align="left">dir</td><td align="left"></td></tr><tr><td align="left">whos</td><td align="left"></td></tr><tr><td align="left">exit</td><td align="left"></td></tr><tr><td align="left">quit</td><td align="left"></td></tr><tr><td align="left">md</td><td align="left"></td></tr><tr><td align="left">more</td><td align="left"></td></tr><tr><td align="left">type</td><td align="left"></td></tr><tr><td align="left">close</td><td align="left"></td></tr></tbody></table><h2 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h2><p>字符串的格式：<strong>‘str’</strong><br>命令|说明<br>:-|:-<br>blanks|<br>sprintf|<br>strcat|<br>strvcat|<br>deblank|<br>lower|<br>sort|<br>strjust|<br>strrep|<br>strtrim|<br>upper|<br>eval|<br>sscanf|<br>findstr|<br>strcmp|<br>strcmpi|<br>strmatch|<br>strtncmp|<br>strncmpi|<br>strtok|</p><h3 id="数字字符串的转换"><a href="#数字字符串的转换" class="headerlink" title="数字字符串的转换"></a>数字字符串的转换</h3><p>num2str|<br>int2str|<br>mat2str|<br>str2double|<br>str2num|<br>sprintf|<br>sscanf|<br>hex2num|<br>hex2dec|<br>dec2hex|<br>bin2dec|<br>dec2bin|<br>base2dec|<br>dec2base|</p><h2 id="信号处理类"><a href="#信号处理类" class="headerlink" title="信号处理类"></a>信号处理类</h2><table><thead><tr><th align="left">命令</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">stem</td><td align="left">画竖线图</td></tr><tr><td align="left">subplot</td><td align="left">配合plot画子图</td></tr><tr><td align="left">length</td><td align="left">求向量的长度</td></tr><tr><td align="left">log</td><td align="left">求以e为底的对数</td></tr><tr><td align="left">log2</td><td align="left">求以2为底的对数</td></tr><tr><td align="left">log10</td><td align="left">求以10为底的对数</td></tr><tr><td align="left">floor</td><td align="left">向下取整</td></tr><tr><td align="left">fix</td><td align="left">丢弃小数</td></tr><tr><td align="left">ceil</td><td align="left">向上取整</td></tr><tr><td align="left">round</td><td align="left">四舍五入</td></tr><tr><td align="left">^</td><td align="left">求幂</td></tr><tr><td align="left">reverse</td><td align="left">字符串翻转</td></tr><tr><td align="left">dec2bin</td><td align="left">十进制转二进制字符串</td></tr><tr><td align="left">bin2dec</td><td align="left">二进制转十进制</td></tr><tr><td align="left">linspace</td><td align="left">创建向量</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;帮助系统&quot;&gt;&lt;a href=&quot;#帮助系统&quot; class=&quot;headerlink&quot; title=&quot;帮助系统&quot;&gt;&lt;/a&gt;帮助系统&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;命令&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;说明
+      
+    
+    </summary>
+    
+    
+      <category term="matlab" scheme="https://lovelycd.top/categories/matlab/"/>
+    
+      <category term="常用命令" scheme="https://lovelycd.top/categories/matlab/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    
+    
+      <category term="matlab" scheme="https://lovelycd.top/tags/matlab/"/>
+    
+      <category term="常用命令" scheme="https://lovelycd.top/tags/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>遗憾</title>
+    <link href="https://lovelycd.top/2019/12/18/%E9%81%97%E6%86%BE/"/>
+    <id>https://lovelycd.top/2019/12/18/%E9%81%97%E6%86%BE/</id>
+    <published>2019-12-18T07:07:15.000Z</published>
+    <updated>2019-12-18T07:50:10.356Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="喜欢却没看的电影"><a href="#喜欢却没看的电影" class="headerlink" title="喜欢却没看的电影"></a>喜欢却没看的电影</h2><ul><li>和莎莫的500天<br><img src="/2019/12/18/%E9%81%97%E6%86%BE/summer500.jpg" alt="summer"></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;喜欢却没看的电影&quot;&gt;&lt;a href=&quot;#喜欢却没看的电影&quot; class=&quot;headerlink&quot; title=&quot;喜欢却没看的电影&quot;&gt;&lt;/a&gt;喜欢却没看的电影&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;和莎莫的500天&lt;br&gt;&lt;img src=&quot;/2019/12/18/%E9%81
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://lovelycd.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="https://lovelycd.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DSP实验</title>
+    <link href="https://lovelycd.top/2019/12/17/DSP%E5%AE%9E%E9%AA%8C/"/>
+    <id>https://lovelycd.top/2019/12/17/DSP%E5%AE%9E%E9%AA%8C/</id>
+    <published>2019-12-17T13:10:15.000Z</published>
+    <updated>2019-12-18T07:26:28.337Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="实验" scheme="https://lovelycd.top/categories/%E5%AE%9E%E9%AA%8C/"/>
+    
+      <category term="dsp" scheme="https://lovelycd.top/categories/%E5%AE%9E%E9%AA%8C/dsp/"/>
+    
+    
+      <category term="实验" scheme="https://lovelycd.top/tags/%E5%AE%9E%E9%AA%8C/"/>
+    
+      <category term="dsp" scheme="https://lovelycd.top/tags/dsp/"/>
+    
+  </entry>
   
   <entry>
     <title>搭建VPS服务器</title>
@@ -237,9 +321,9 @@
     <link href="https://lovelycd.top/2019/11/17/gcc-gdb-md/"/>
     <id>https://lovelycd.top/2019/11/17/gcc-gdb-md/</id>
     <published>2019-11-17T07:22:56.000Z</published>
-    <updated>2019-11-17T07:23:53.942Z</updated>
+    <updated>2019-12-18T07:08:37.190Z</updated>
     
-    <content type="html"><![CDATA[<p>介绍gcc-gdb的使用方法</p><a id="more"></a><h1 id="gcc-gdb使用"><a href="#gcc-gdb使用" class="headerlink" title="gcc-gdb使用"></a>gcc-gdb使用</h1><p>程序生成可执行文件的过程：　　预处理，编译，汇编，连接</p><p>gcc </p><p>-E　　　　只进行预处理指令，生成文件格式与源文件相同</p><p>-S　　　　不进行汇编之后的操作，生成.s文件（汇编语言程序）</p><p>-c　　　　-c选项不进行连接处理，生成汇编文件.o（只编译，不链接形成的文件，里面包含了对各个函数的入口标记）</p><p>-o　　　　-o选项指定生成的文件名称</p><p>-g　　　　-g选项在编译时生成调试信息</p><p>gdb</p><p>直接在命令行输入gdb,回车进入执行程序，键入help显示不同的命令类，在help命令后面加入不同的命令类可以查看命令类里面的具体命令,接下来以help<br>file为例</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710092606534-1453204542.png" alt></p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710092747579-1189308146.png" alt></p><p>通过file xxx（可执行文件）来加载文件，通过list命令来查看源文件的内容</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093054678-1287111492.png" alt></p><p>查看断点相关命令：（屏幕显示不完全）</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093616216-1382361154.png" alt></p><p> 在第5行处添加断点：</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093805605-2012821304.png" alt></p><p>查看运行相关命令：（屏幕显示不完全）</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093902375-778104329.png" alt></p><p>运行程序到断点并继续执行：</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710110626124-1013988637.png" alt></p><p>也可以单步执行：</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710110953818-1705109170.png" alt></p><p>以后继续补充</p>]]></content>
+    <content type="html"><![CDATA[<p>介绍gcc-gdb的使用方法</p><a id="more"></a><h1 id="gcc-gdb使用"><a href="#gcc-gdb使用" class="headerlink" title="gcc-gdb使用"></a>gcc-gdb使用</h1><p>程序生成可执行文件的过程：　　预处理，编译，汇编，连接</p><p>gcc </p><p>-E　　　　只进行预处理指令，生成文件格式与源文件相同</p><p>-S　　　　不进行汇编之后的操作，生成.s文件（汇编语言程序）</p><p>-c　　　　-c选项不进行连接处理，生成汇编文件.o（只编译，不链接形成的文件，里面包含了对各个函数的入口标记）</p><p>-o　　　　-o选项指定生成的文件名称</p><p>-g　　　　-g选项在编译时生成调试信息</p><p>gdb</p><p>直接在命令行输入gdb,回车进入执行程序，键入help显示不同的命令类，在help命令后面加入不同的命令类可以查看命令类里面的具体命令,接下来以help<br>file为例</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710092606534-1453204542.png" alt></p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710092747579-1189308146.png" alt></p><p>通过file xxx（可执行文件）来加载文件，通过list命令来查看源文件的内容</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093054678-1287111492.png" alt></p><p>查看断点相关命令：（屏幕显示不完全）</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093616216-1382361154.png" alt></p><p> 在第5行处添加断点：</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093805605-2012821304.png" alt></p><p>查看运行相关命令：（屏幕显示不完全）</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710093902375-778104329.png" alt></p><p>运行程序到断点并继续执行：</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710110626124-1013988637.png" alt></p><p>也可以单步执行：</p><p><img src="https://img2018.cnblogs.com/blog/1531294/201907/1531294-20190710110953818-1705109170.png" alt></p><ul><li>set args “ xxx”    为程序设定参数</li><li>break n        在N行设置断点</li><li>C            继续运行</li><li>print args            打印参数</li><li>next            执行下一个程序行，跳过程序调用</li><li>step         执行下一条命令，进入函数调用</li><li>list            列出当前程序停止处附近的文本</li><li>thread        切换线程</li><li>set detach-on-fork off        开启进程分离，它的意思是在调用fork后相关进程的运行行为是怎么样的，是detache on/off ?也就是说分离出去独立运行，不受gdb控制还是不分离，被阻塞住。这里还涉及到一个设置 set follow-fork-mode [parents/child] ,就是fork之后，gdb的控制落在谁身上，如果是父进程，那么分离的就是子进程，反之亦然。如果detache-on-fork被off了，那么未受控的那个进程就会被阻塞住，进程状态为T，即处于调试状态。 </li></ul><h2 id="alias"><a href="#alias" class="headerlink" title="alias"></a>alias</h2><p>ni – Step one instruction<br>rc – Continue program being debugged but run it in reverse<br>rni – Step backward one instruction<br>rsi – Step backward exactly one instruction<br>si – Step one instruction exactly<br>stepping – Specify single-stepping behavior at a tracepoint<br>tp – Set a tracepoint at specified line or function<br>tty – Set terminal for future runs of program being debugged<br>where – Print backtrace of all stack frames<br>ws – Specify single-stepping behavior at a tracepoint</p>]]></content>
     
     <summary type="html">
     
